@@ -2,7 +2,7 @@ package bs;
 
 public class Client {
 	
-	String name;
+	String fullName;
 	String addr;
 
 }
