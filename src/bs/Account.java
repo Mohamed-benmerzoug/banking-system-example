@@ -4,13 +4,17 @@ public class Account {
 	
 	private  String ID;
 	private  double balance; //mandatory
+	private  String currency; //currency feature
 	
 	
 	public Account(String id, double intial) {
 		this.ID= id;
 		this.balance=intial;
 	}
-		
+	
+	public void getCurrency(){
+		return this.currency;
+	}
 	public double getBalance() {
 		return this.balance;
 	}
