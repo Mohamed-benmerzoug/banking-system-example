@@ -4,7 +4,7 @@ public class Account {
 	
 	private  String ID;
 	private  double balance; //mandatory
-	private  String currency; //currency feature
+	private  String currencyExchange; //currencyExchange feature
 	
 	
 	public Account(String id, double intial) {
@@ -13,7 +13,7 @@ public class Account {
 	}
 	
 	public void getCurrency(){
-		return this.currency;
+		return this.currencyExchange;
 	}
 	public double getBalance() {
 		return this.balance;
