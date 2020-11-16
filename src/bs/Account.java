@@ -31,9 +31,12 @@ public class Account {
 	//deposit feature
 	public void deposit(double amount) {
 		balance +=amount;
-		System.out.println(" Amount: "+ amount +" added to the account: "+ID +"\n Total "+ getBalance()+amount);
+		displayTransactionInfo(amount);
 	}
-		
+	
+	public void displayTransactionInfo(double amount) {
+		System.out.println(" Amount: "+ amount +" added to the account: "+custumerID +"\n Total "+ getBalance()+amount);
+	}
 	
 	//withdraw with limit
 	public boolean withdraw(double amount) {
